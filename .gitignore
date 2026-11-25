@@ -1,0 +1,53 @@
+# API keys, environment variables & secrets
+.env
+.env.*
+*.env
+!.env.example
+*.key
+*.pem
+*.p12
+.streamlit/secrets.toml
+secrets.toml
+secrets.json
+secrets.yaml
+secrets.yml
+*credentials*.json
+*client_secret*.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Vector database & local storage
+chroma_db/
+*.sqlite3
+*.db
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Model / HuggingFace / local caches
+.cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

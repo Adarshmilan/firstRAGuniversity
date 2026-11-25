@@ -1,0 +1,5 @@
+# Install everything with:   uv add -r requirements.txt
+google-genai           # Gemini API client (the "G" - generation)
+sentence-transformers  # free, local embedding model (text -> vector)
+chromadb               # vector database (stores chunks + vectors on disk)
+streamlit              # chat web UI
